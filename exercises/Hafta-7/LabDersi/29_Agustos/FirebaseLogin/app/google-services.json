@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "374785856786",
+    "project_id": "fir-login-82631",
+    "storage_bucket": "fir-login-82631.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374785856786:android:e08a9e9bafe81c2c810fcb",
+        "android_client_info": {
+          "package_name": "com.tamerthedark.firebaselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374785856786-ikn1rbkk88m72gmnm804cplifmjfdmlq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAD1-Fd0r9X3GKDYOUMxJCpyEB7Zvs8LQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374785856786-ikn1rbkk88m72gmnm804cplifmjfdmlq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

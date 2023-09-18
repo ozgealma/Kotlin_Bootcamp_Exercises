@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "152691153331",
+    "project_id": "fireauth-f6884",
+    "storage_bucket": "fireauth-f6884.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152691153331:android:bf19d0bb3ac29b837bd3c6",
+        "android_client_info": {
+          "package_name": "com.tamerthedark.fireauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152691153331-rinh39ve87kgnm7trngvqc3b85vc2smi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9UG17-lv8cMIb3b-TXHsU8rURLRsAnMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152691153331-rinh39ve87kgnm7trngvqc3b85vc2smi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

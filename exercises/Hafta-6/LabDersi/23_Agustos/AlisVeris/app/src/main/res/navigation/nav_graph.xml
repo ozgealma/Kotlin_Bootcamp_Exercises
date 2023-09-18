@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/urunDetayFragment">
+
+    <fragment
+        android:id="@+id/urunDetayFragment"
+        android:name="com.tamerthedark.alisveris.fragments.UrunDetayFragment"
+        android:label="fragment_urun_detay"
+        tools:layout="@layout/fragment_urun_detay" >
+        <action
+            android:id="@+id/action_urunDetayFragment_to_basketFragment"
+            app:destination="@id/basketFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.tamerthedark.alisveris.fragments.BasketFragment"
+        android:label="fragment_basket"
+        tools:layout="@layout/fragment_basket" >
+        <action
+            android:id="@+id/action_basketFragment_to_urunDetayFragment"
+            app:destination="@id/urunDetayFragment" />
+        <action
+            android:id="@+id/action_basketFragment_to_photosFragment"
+            app:destination="@id/photosFragment" />
+        <argument
+            android:name="urunAdi"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="urunFiyati"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="urunDesc"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="Product"
+            app:argType="com.tamerthedark.alisveris.data.Product" />
+    </fragment>
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.tamerthedark.alisveris.fragments.PhotosFragment"
+        android:label="fragment_photos"
+        tools:layout="@layout/fragment_photos" >
+        <action
+            android:id="@+id/action_photosFragment_to_urunDetayFragment"
+            app:destination="@id/urunDetayFragment" />
+    </fragment>
+</navigation>
